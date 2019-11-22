@@ -6,16 +6,16 @@ public class DomesticAnimal {
  private Color color;
  private int weight ;
 
- public Color getColor() {
-  return color;
+ public Color getColor () {
+     return color;
  }
 
- public int getWeight() {
-  return weight;
+ public int getWight (){
+     return  weight;
  }
 
- public String getName() {
-  return name;
+ public String getName (){
+     return  name;
  }
 
  public DomesticAnimal(String name, Color color, int weight) {

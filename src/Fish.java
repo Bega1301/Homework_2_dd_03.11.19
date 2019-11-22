@@ -15,7 +15,7 @@ public class Fish extends DomesticAnimal implements Printable{
 
     @Override
     public void print() {
-        System.out.println("Рыбка :"+ getName()+ " "+getColor()+" "+ getWeight()+ " "+"грамм" +" "+getDecoration());
+        System.out.println("Рыбка :"+ getName()+ " "+getColor()+ " "+getDecoration());
 
     }
 }

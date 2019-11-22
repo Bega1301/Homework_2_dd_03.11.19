@@ -21,7 +21,7 @@ public class Cow extends DomesticAnimal implements Printable{
     @Override
     public void print() {
 
-        System.out.println("Корова:" + getName()+" " +getColor()+ " " +getWeight()+"кг " + product +" " + amountOfProduct+ "литров");
+        System.out.println("Корова:" + getName()+" " +getColor()+  product +" " + amountOfProduct+ "литров");
 
 
 

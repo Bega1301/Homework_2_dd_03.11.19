@@ -15,7 +15,7 @@ public class Dog extends DomesticAnimal implements Printable{
 
     @Override
     public void print() {
-        System.out.println("Собака:"+ getName()+" "+ getColor()+ " "+ getWeight() +" кг "+ service);
+        System.out.println("Собака:"+ getName()+" "+ getColor()+  service);
 
 
     }
